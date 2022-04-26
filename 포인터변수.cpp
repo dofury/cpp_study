@@ -18,6 +18,7 @@ void Circle::draw()
 int main()
 {
 	int input;
+	srand(time(NULL));
 	cout << "숫자를 입력하시오: ";
 	cin >> input;
 	for (int i = 0; i < input; i++)
